@@ -1,0 +1,14 @@
+{
+  "name": "imo-simula-infrastructure",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "plan": "railway config plan",
+    "apply": "railway config apply"
+  },
+  "devDependencies": {
+    "railway": "3.12.0",
+    "typescript": "5.9.3"
+  }
+}
